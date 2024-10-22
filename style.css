@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+}
+.logo {
+  font-size: large;
+  font-weight: 700;
+  padding: 10px;
+}
+header {
+  /* margin-top: -10px; */
+  /* height: 48px; */
+  background-color: white;
+  align-items: center;
+  box-shadow: 1px 1px 20px #29292952;
+  position: sticky;
+  top: 0;
+}
+nav {
+  display: flex;
+  color: rgb(17, 17, 17);
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+.logo {
+  width: 100px;
+}
+ul li {
+  gap: 20px;
+  padding: 10px 35px;
+}
+
+ul li:hover {
+  background-color: rgb(230, 231, 232);
+  /* padding: 10px 10px 0px 10px; */
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(227, 229, 230);
+}
+.wlc {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.tow {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.main img {
+  width: 900px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.aboutUS {
+  margin-top: 30px;
+  text-align: center;
+}
+.MidP {
+  display: flex;
+  padding: 30px 70px;
+  gap: 60px;
+}
+
+.MidP p {
+  text-align: justify;
+}
+
+.bottum {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 15px;
+  border-radius: 10px;
+  padding: 50px;
+  width: 300px;
+  height: 250px;
+  border: 2px solid #29292952;
+  background-color: rgb(255, 251, 251);
+}
+.btn {
+  margin-top: 50px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #e60a14;
+  border: none;
+  color: aliceblue;
+}
+footer {
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.fotter p {
+  margin: 10px;
+}
+#text::placeholder {
+  padding: 10px;
+}
+#email::placeholder {
+  padding: 10px;
+}
